@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="body.css">
+</head>
+<body>
+  <div class="section"id="Registrationsection">
+    <h1>Registration</h1>
+    <form id="registration-form" action="Untitled-1.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" placeholder="Enter Full Name" required><br>
+
+      <label for="fathers_name">Father's Name:</label>
+      <input type="text" name="fathers_name" id="fathers_name" placeholder="Enter Father's Name"><br>
+
+      <label for="age">Age:</label>
+      <input type="number" name="age" id="age" placeholder="Enter Age" min="10" required><br>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" name="dob" id="dob" required><br>
+
+      <label for="address">Address:</label>
+      <textarea name="address" id="address" placeholder="Enter Address" required></textarea><br>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" name="phone" id="phone" placeholder="Enter Phone Number"  required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="Enter Email" required><br>
+
+      <label for="class_x">Class X Marks (%):</label>
+      <input type="number" name="class_x" id="class_x" placeholder="Enter Class X Marks" min="0" max="100" required><br>
+
+      <label for="class_xii">Class XII Marks (%):</label>
+      <input type="number" name="class_xii" id="class_xii" placeholder="Enter Class XII Marks" min="0" max="100" required><br>
+
+      <label for="aadhar_no">Aadhar Number:</label>
+      <input type="text" name="aadhar_no" id="aadhar_no" placeholder="Enter Aadhar Number"  required><br>
+
+      <label for="rollno">Roll Number:</label>
+      <input type="text" name="rollno" id="rollno" placeholder="Enter Roll Number" required><br>
+
+      <label for="course">Course:</label>
+      <input type="text" name="course" id="course" placeholder="Enter Course" required><br>
+
+      <label for="branch">Branch:</label>
+      <input type="text" name="branch" id="branch" placeholder="Enter Branch" required><br>
+
+      <button type="submit">Register</button>
+    </form>
+</body>
+</html>
