@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  background-image: url("WhatsApp Image 2024-04-02 at 09.36.02_fa10407b.jpg");  /* Adjust path to your image */
+  background-size: cover;  /* Adjust as needed (cover, contain, etc.) */
+  background-position: center;  /* Adjust as needed (center, top left, etc.) */
+  background-repeat: no-repeat;  /* Prevent image tiling */
+  margin: 0;  /* Remove default body margins for full-page effect */
+  height: 100vh;  /* Set body height to 100% viewport height */
+  display: flex;  /* Center the registration container vertically */
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Add spacing around the content */
+}
